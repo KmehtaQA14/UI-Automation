@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/2025-selenium/Selenium-Practice/src">
+        <classes>
+            <class name="tests.HomePageTest">
+            <methods>
+                <include name="validate_Search"/>
+                <include name="verify_Comment"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
